@@ -10,7 +10,7 @@ public class ClockTest {
 		myClock.displayPartOfDay();
 		
 		myClock.ora = 20;
-		myClock.minuti = 75;
+		myClock.minuti = -24;
 		myClock.displayPartOfDay();
 
 	}

@@ -7,7 +7,7 @@ public class Clock {
 	
 	public void displayPartOfDay() {
 		
-		if (ora>24 || minuti>60){ 
+		if (ora>24 || ora<0 || minuti>60 || minuti<0){ 
 			System.out.println("L'orario è errato!");
 		
 		}
